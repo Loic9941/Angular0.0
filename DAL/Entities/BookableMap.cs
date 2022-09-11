@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL
+namespace Domain.Entities
 {
     public class BookableMap
     {
         public BookableMap(EntityTypeBuilder<Bookable> entityBuilder)
-        { 
-            entityBuilder.HasKey(p => p.Id);              
+        {
+            entityBuilder.HasKey(p => p.Id);
             entityBuilder.Property(p => p.Name);
         }
     }

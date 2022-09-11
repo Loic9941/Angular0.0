@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL
+namespace Domain.Entities
 {
     public class Bookable
     {
-        public int Id { get; set; }
+        public Guid Guid { get; set; }
         public string Name { get; set; }
 
     }

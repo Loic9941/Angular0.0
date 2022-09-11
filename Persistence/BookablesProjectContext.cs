@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DAL;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
