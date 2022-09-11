@@ -2,11 +2,8 @@
 
 namespace Domain.Repository
 {
-    public interface IGenericRepository
+    public interface IGenericRepository<T> where T : class
     {
-        public interface IGenericRepository<T> where T : class
-        {
-            IQueryable<T> Get(ISpecifications<T>? spec = null);
-        }
+        IQueryable<T> Get(ISpecifications<T>? spec = null);
     }
 }

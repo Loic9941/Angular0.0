@@ -11,7 +11,7 @@ namespace Domain.Entities
     {
         public BookableMap(EntityTypeBuilder<Bookable> entityBuilder)
         {
-            entityBuilder.HasKey(p => p.Id);
+            entityBuilder.HasKey(p => p.Guid);
             entityBuilder.Property(p => p.Name);
         }
     }

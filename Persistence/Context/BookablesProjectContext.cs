@@ -5,7 +5,7 @@ using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Repository
+namespace Persistence.Context
 {
     public partial class BookablesProjectContext : DbContext
     {
